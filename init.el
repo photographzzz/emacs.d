@@ -158,9 +158,11 @@
 (global-set-key (kbd "C-c a") 'org-agenda)
 
 
-;;当在外部修改此文件时，自动加载
+;; 当在外部修改此文件时，自动加载
 (global-auto-revert-mode t)
 
+(require 'popwin)
+(popwin-mode 1)
 
 
 ;; add(set-language-environment 'utf-8)
