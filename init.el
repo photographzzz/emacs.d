@@ -27,6 +27,7 @@
 		swiper
 		counsel;; swiper的依赖包
 		smartparens
+		popwin
 		;; --- Major Mode ---
 		js2-mode
 		;; --- Minor Mode ---
@@ -85,7 +86,8 @@
 ;; 文件不自动备份
 (setq make-backup-files nil)
 
-;;文件不自动保存
+;; 文件不自动保存
+;; 不生成auto-save-list文件夹
 (setq auto-save-default nil)
 
 
