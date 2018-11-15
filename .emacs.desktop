@@ -1,0 +1,55 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Thu Nov 15 15:48:22 2018
+;; Desktop file format version 208
+;; Emacs version 26.1
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (23533 9414 511158 0) (desktop . "208") "photograph@MacBook-Pro.local" nil nil ((((minibuffer . t) (font-backend mac-ct) (fontsize . 0) (font . "-*-Menlo-normal-normal-normal-*-12-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (horizontal-scroll-bars) (foreground-color . "Black") (background-color . "White") (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (undecorated) (ns-appearance . unbound) (ns-transparent-titlebar . unbound) (z-group) (no-focus-on-map) (no-accept-focus) (menu-bar-lines . 1) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 15) (scroll-bar-height . 0) (alpha) (fullscreen) (display-type . color) (background-mode . light) (cursor-color . "black") (environment) (display . "MacBook-Pro.local") (frameset--id . "087E-4FE3-7BD9-4E06") (frameset--mini t . t) (modeline . t) (unsplittable) (icon-name) (explicit-name) (tool-bar-position . top) (fullscreen\.maximized) (visibility . t) (height . 43) (width . 95) (left . 816) (top . 42)) ((min-height . 8) (min-width . 10) (min-height-ignore . 4) (min-width-ignore . 10) (min-height-safe . 2) (min-width-safe . 2) (min-pixel-height . 112) (min-pixel-width . 70) (min-pixel-height-ignore . 56) (min-pixel-width-ignore . 70) (min-pixel-height-safe . 28) (min-pixel-width-safe . 14)) vc (pixel-width . 696) (pixel-height . 588) (total-width . 99) (total-height . 42) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 696) (pixel-height . 294) (total-width . 99) (total-height . 21) (normal-height . 0.5) (normal-width . 1.0) (buffer "init.el" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins 3) (scroll-bars nil 3 t nil 0 t) (vscroll . 0) (dedicated) (point . 485) (start . 209))) (leaf (last . t) (pixel-width . 696) (pixel-height . 294) (total-width . 99) (total-height . 21) (normal-height . 0.5) (normal-width . 1.0) (buffer "*Backtrace*" (selected) (hscroll . 0) (fringes 8 8 nil) (margins 1) (scroll-bars nil 3 t nil 0 t) (vscroll . 0) (dedicated) (point . 31) (start . 1)))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '(""))
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("~/desktop/read.c" "~/.emacs.d/init.el" "~/Desktop/Courseware/懳飸联懲鴳软懠项懩繎设懠茟书--懩板.pages" "~/Desktop/懴顟目/BookingTickets/src/Business/Flight.java" "~/Desktop/懴顟目/BookingTickets/src/Business/Customer.java" "~/Desktop/懴顟目/BookingTickets/src/Business/AirlinerDirectory.java"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  "/Users/photograph/.emacs.d/init.el"
+  "init.el"
+  'emacs-lisp-mode
+  '(eldoc-mode linum-mode company-mode auto-complete-mode)
+  485
+  '(968 nil)
+  nil
+  nil
+  '((buffer-display-time 23533 9408 791590 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (327 255 255 1949 1949 1946 1949 1949 2150 1801 1799 1266 252 1700 1221 485))))
+
+(desktop-create-buffer 208
+  nil
+  "*info*"
+  'Info-mode
+  '(linum-mode company-mode)
+  55712
+  '(nil nil)
+  t
+  '("/Applications/Emacs.app/Contents/Resources/info/emacs" "Distrib" ((history ("/Applications/Emacs.app/Contents/Resources/info/emacs" "Distrib" 55712) ("/Applications/Emacs.app/Contents/Resources/info/emacs" "Distrib" 55712) ("/Applications/Emacs.app/Contents/Resources/info/emacs" "Distrib" 55712))))
+  '((tab-width . 8) (buffer-display-time 23533 7984 904139 0) (buffer-file-coding-system . utf-8-unix) (case-fold-search . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Applications/Emacs.app/Contents/Resources/lisp/progmodes/elisp-mode.el.gz"
+  "elisp-mode.el.gz"
+  'emacs-lisp-mode
+  '(eldoc-mode linum-mode company-mode auto-complete-mode)
+  47608
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 23533 7872 171727 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
