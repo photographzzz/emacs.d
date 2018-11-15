@@ -85,6 +85,9 @@
 ;; 文件不自动备份
 (setq make-backup-files nil)
 
+;;文件不自动保存
+(setq auto-save-default nil)
+
 
 ;; 使org模式中的注释代码也高亮
 (require 'org)
@@ -151,6 +154,10 @@
 ;; org-mode
 (setq org-agenda-files '("~/org"))
 (global-set-key (kbd "C-c a") 'org-agenda)
+
+
+;;当在外部修改此文件时，自动加载
+(global-auto-revert-mode t)
 
 
 
