@@ -23,7 +23,6 @@
 		counsel;; swiper的依赖包
 		smartparens
 		popwin
-		multiple-cursors
 		;; --- Major Mode ---
 		js2-mode
 		;; --- Minor Mode ---
