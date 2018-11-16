@@ -1,3 +1,10 @@
+;; _________                   __                    
+;; \_   ___ \  __ __   _______/  |_   ____    _____  
+;; /    \  \/ |  |  \ /  ___/\   __\ /  _ \  /     \ 
+;; \     \____|  |  / \___ \  |  |  (  <_> )|  Y Y  \
+;;  \______  /|____/ /____  > |__|   \____/ |__|_|  /
+;;         \/             \/                      \/ 
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
