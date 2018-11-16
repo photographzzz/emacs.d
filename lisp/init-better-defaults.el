@@ -74,4 +74,40 @@
         (message "Indent buffer.")))))
 
 
+;; hidden expand is dabbrev expand on steroids
+;; debbrev指的是buffer中的一个个单词，all-buffers指的是打开的所有buffer
+;; 两个在一起就是打开的所有buffer中的所有单词
+(setq hippie-expand-try-function-list '(try-expand-debbrev
+                                        try-expand-debbrev-all-buffers
+                                        try-expand-debbrev-from-kill
+                                        try-complete-file-name-partially
+                                        try-complete-file-name
+                                        try-expand-all-abbrevs
+                                        try-expand-list
+                                        try-expand-line
+                                        try-complete-lisp-symbol-partially
+                                        try-complete-lisp-symbol))
+
+
+(fset 'yes-or-no-p 'y-or-n-p)
+
+
+;; always delete and copy recursively
+(setq dired-recursive-deletes 'always)
+(setq dired-recursive-copies 'always)
+
+
+;; dired - ruuse current buffer by preesing 'a'
+(put 'dired-find-alternate-file 'disable nil)
+
+;; C-x C-j 就可以进入当前文件夹的dired mode。
+(require 'dired-x)
+
+
+;; if there is a dired buffer displayed in the next window
+;; use its current subdir
+;; instead of the current subdir of this dired buffer
+(setq dired-dwin-target 1)
+
+
 (provide 'init-better-defaults)

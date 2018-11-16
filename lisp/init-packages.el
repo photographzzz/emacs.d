@@ -29,23 +29,25 @@
 ;; Add Packages
 ;; 定义了一个package列表
 (defvar photograph/packages '(
-		;; --- Auto-completion ---
-		company
-		;; --- Better Editor ---
-		hungry-delete
-		swiper
-		counsel;; swiper的依赖包
-		smartparens
-		popwin
-		;; --- Major Mode ---
-		js2-mode
-		;; --- Minor Mode ---
-		nodejs-repl
-		exec-path-from-shell;; mac上要找到命令行的程序 要安装这个
-		;; --- Themes ---
-		monokai-theme
-		solarized-theme
-		) "Default packages")
+			      ;; --- Auto-completion ---
+			      company
+			      ;; --- Better Editor ---
+			      hungry-delete
+			      swiper
+			      counsel;; swiper的依赖包
+			      smartparens
+			      popwin
+			      ;; --- Major Mode ---
+			      js2-mode
+			      ;; --- Minor Mode ---
+			      nodejs-repl
+			      exec-path-from-shell;; mac上要找到命令行的程序 要安装这个
+			      ;; --- Themes ---
+			      monokai-theme
+			      solarized-theme
+			      ;; --- Others ---
+			      reveal-in-osx-finder
+			      ) "Default packages")
 
 (setq package-selected-packages photograph/packages)
 
@@ -53,16 +55,16 @@
 ;; 如果全部安装完了 则返回nil
 (defun photograph/packages-installed-p ()
   ;; loop for 是Common Lisp Extension里面的
-     (loop for pkg in photograph/packages
-	   when (not (package-installed-p pkg)) do (return nil)
-	   finally (return t)))
+  (loop for pkg in photograph/packages
+	when (not (package-installed-p pkg)) do (return nil)
+	finally (return t)))
 
- (unless (photograph/packages-installed-p)
-     (message "%s" "Refreshing package database...")
-     (package-refresh-contents)
-     (dolist (pkg photograph/packages)
-       (when (not (package-installed-p pkg))
-	 (package-install pkg))))
+(unless (photograph/packages-installed-p)
+  (message "%s" "Refreshing package database...")
+  (package-refresh-contents)
+  (dolist (pkg photograph/packages)
+    (when (not (package-installed-p pkg))
+      (package-install pkg))))
 
 
 ;; Find Executable Path on OS X

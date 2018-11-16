@@ -23,7 +23,8 @@
 (setq custom-file (expand-file-name "lisp/custom.el" user-emacs-directory))
 (load-file custom-file)
 
-(electric-indent-mode t) 
+(electric-indent-mode t)
 
 ;; add(set-language-environment 'utf-8)
 ;; (set-locale-environment "UTF-8")
+(put 'dired-find-alternate-file 'disabled nil)
