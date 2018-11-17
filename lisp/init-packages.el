@@ -45,6 +45,8 @@
 			      ;; --- Themes ---
 			      monokai-theme
 			      solarized-theme
+			      material-theme
+			      ;; --- Python ---
 			      ;; --- Others ---
 			      reveal-in-osx-finder
 			      ) "Default packages")
